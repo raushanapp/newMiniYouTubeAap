@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  display: block;
+  align-items: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 0;
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#navbar {
+  /* overflow-x: hidden; */
+  /* top: 0; */
+  display: flex;
+  /* border: 2px solid rgb(148, 148, 146); */
+  width: 99.6%;
+  justify-content: space-between;
+  height: 75px;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  align-items: center;
+  background:rgb(32, 31, 31);
+}
+
+#logo {
+  display: flex;
+  /* border: 1px solid red; */
+  width: 20%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px;
+}
+.fa-align-justify {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+/* .fa-brands{
+    color: white;
+} */
+.fa-youtube {
+  /* width: 80px; */
+  /* height: 50px; */
+  font-size: 30px;
+  /* display: block; */
+  padding: 1px;
+  color: red;
+  /* box-sizing: border-box; */
+  /* border-radius: 5px; */
+}
+#logo1 {
+  /* top: -25px; */
+
+  margin-left: -5px;
+  padding: 0px;
+  font-size: 30px;
+  color: white;
+}
+#logo1 {
+  margin-top: -45px;
+}
+#serachBox {
+  display: flex;
+  /* border: 1px solid blue; */
+  width: 35%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px;
+}
+#serachVideos {
+  width: 70%;
+  height: 30px;
+  border-radius: 8px;
+  font-size: 18px;
+  background-color: rgb(20, 19, 19);
+  color: white;
+}
+#Btn {
+  /* padding: 8px; */
+  background: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid white;
+  background-color: rgb(75, 69, 69);
+}
+#Btn1 {
+  /* padding: 5px; */
+  border-radius: 50%;
+  background: none;
+  cursor: pointer;
+}
+.fa-microphone {
+  padding: 8px;
+  font-size: 20px;
+  color: white;
+}
+.fa-magnifying-glass {
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+}
+
+#someText {
+  display: flex;
+  width: 20%;
+  /* border: 1px solid brown; */
+  align-items: center;
+  justify-content: space-around;
+  padding: 8px;
+}
+.fa-video {
+  padding: 2px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.fa-grip {
+  padding: 2px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.fa-bell {
+  padding: 2px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* side navbar Css start*/
+#mainContaine {
+  display: flex;
+  /* border: 2px solid red; */
+  width: 99.6%;
+  gap: 20px;
+  margin-top: 80px;
+  /* overflow:scroll; */
+
+  /* margin-left: 150px; */
+}
+#thumbMovie {
+  display: grid;
+  margin-left: 210px;
+
+  /* overflow-y: scroll; */
+  /* border: 1px solid blue; */
+  grid-template-columns: repeat(4, 271px);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* width: 80%; */
+}
+#thumbMovie  div{
+  /* border: goldenrod 1px solid ; */
+  width: 100%;
+  padding: 9px;
+  /* display: flex; */
+  /* justify-content: center; */
+  align-items: center;
+  height: 280px;
+  cursor: pointer;
+}
+.thumImage {
+  width: 100%;
+  height: 210px;
+  box-sizing: border-box;
+  display: block;
+  padding: 7px;
+}
+.pTag {
+  font-size: 14px;
+  text-align: center;
+}
+
+#siderNavbar {
+  /* display: flex; */
+  display: block;
+  width: 15%;
+  flex-direction: column;
+  /* border: 2px solid rgb(167, 165, 163); */
+  height: 100%;
+  margin-top: 2px;
+  overflow-y: scroll;
+  position: fixed;
+  z-index: 1;
+  padding-top: 20px;
+}
+#homeTitle {
+  display: flex;
+  padding: 2px;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(128, 124, 124);
+  border-bottom-width: 50%;
+
+  justify-content: space-around;
+  /* align-items: center; */
+  text-align: justify;
+}
+.fa-house-chimney,
+.fa-compass,
+.fa-envelope-open-text {
+  margin-right: 18px;
+  /* padding: 10px; */
+  margin-left: 15px;
+  font-size: 22px;
+}
+#history {
+  display: flex;
+  padding: 2px;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(129, 128, 128);
+  justify-content: space-around;
+  /* align-items: center; */
+  text-align: justify;
+}
+.fa-box-archive,
+.fa-clock-rotate-left,
+.fa-clapperboard,
+.fa-clock,
+.fa-thumbs-up {
+  margin-right: 18px;
+  /* padding: 10px; */
+  margin-left: 15px;
+  font-size: 22px;
+}
+/* side navbar Css end*/

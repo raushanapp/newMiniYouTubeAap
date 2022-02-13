@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    align-items: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 0;
+    background-color: rgb(32, 32, 32);
+    color: white;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  #navbar {
+    /* overflow-x: hidden; */
+    /* top: 0; */
+    display: flex;
+    /* border: 2px solid rgb(148, 148, 146); */
+    width: 99.6%;
+    justify-content: space-between;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    align-items: center;
+    background:rgb(32, 31, 31);
+  }
+  
+  #logo {
+    display: flex;
+    /* border: 1px solid red; */
+    width: 20%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+  }
+  .fa-align-justify {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+  }
+  /* .fa-brands{
+      color: white;
+  } */
+  .fa-youtube {
+    /* width: 80px; */
+    /* height: 50px; */
+    font-size: 30px;
+    /* display: block; */
+    padding: 1px;
+    color: red;
+    /* box-sizing: border-box; */
+    /* border-radius: 5px; */
+  }
+  #logo1 {
+    /* top: -25px; */
+  
+    margin-left: -5px;
+    padding: 0px;
+    font-size: 30px;
+    color: white;
+  }
+  #logo1 {
+    margin-top: -45px;
+  }
+  #serachBox {
+    display: flex;
+    /* border: 1px solid blue; */
+    width: 35%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+  }
+  #serachVideos {
+    width: 70%;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: rgb(20, 19, 19);
+    color: white;
+  }
+  #Btn {
+    /* padding: 8px; */
+    background: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: rgb(75, 69, 69);
+  }
+  #Btn1 {
+    /* padding: 5px; */
+    border-radius: 50%;
+    background: none;
+    cursor: pointer;
+  }
+  .fa-microphone {
+    padding: 8px;
+    font-size: 20px;
+    color: white;
+  }
+  .fa-magnifying-glass {
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+  }
+  
+  #someText {
+    display: flex;
+    width: 20%;
+    /* border: 1px solid brown; */
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px;
+  }
+  .fa-video {
+    padding: 2px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .fa-grip {
+    padding: 2px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .fa-bell {
+    padding: 2px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+
+
+
+/* play videos css start */
+#mainContainer{
+
+    display: flex;
+    align-items: center;
+    width: 1360px;
+    gap: 15px;
+    margin-top: 85px;
+    justify-content: space-between;
+
+}
+
+#playVideos {
+
+    display: flex;
+    width: 60%;
+    height: 450px;
+    padding: 5px;
+    /* border: 2px solid rgb(172, 143, 143); */
+}
+
+#recommandedVideos {
+
+    display: flex;
+    width: 40%;
+    height: 450px;
+    /* border: 2px solid rgb(185, 142, 142); */
+}
+#iframePlay{
+    padding: 5px;
+    border: none;
+}
+
+/* play videos css end */
